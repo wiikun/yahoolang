@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Yahoo < Brainfuck
+  nxt "ヤフー！"
+  inc "ヤッフー！"
+  prv "ウィッヒュー！"
+  dec "イェーイ"
+  opn "オー！"
+  cls "マンマミーア！"
+  put "レッツゴー！"
+  get "セーブする？"
+end
+
+puts Yahoo.new.fuck(ARGF.read)
+
